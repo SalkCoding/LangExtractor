@@ -3,7 +3,7 @@ plugins {
     id 'application'
 }
 
-group = 'org.example'
+group = 'com.salkcoding.langextractor'
 version = '1.0.0-SNAPSHOT'
 
 repositories {
@@ -20,7 +20,7 @@ test {
 }
 
 kotlin {
-    jvmToolchain(11)
+    jvmToolchain(17)
 }
 
 application {
